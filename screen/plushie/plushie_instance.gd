@@ -82,14 +82,14 @@ func config() -> PlushieConfig:
 	return plushie.config()
 
 func position_randomly(rect: Rect2) -> void:
-	var pos = Vector2(
+	var pos := Vector2(
 		randf_range(
-			10,
-			rect.size.x - soft_body.texture.get_width() * soft_body.scale.x - 10
+			30,
+			rect.size.x - soft_body.texture.get_width() * soft_body.scale.x - 30
 		),
-		10
+		30
 	)
-	var origin = center()
+	var origin := center()
 	for pb in soft_body.get_rigid_bodies():
 		pb.rigidbody.global_position += pos - origin
 

@@ -73,7 +73,7 @@
             "defense": 8
           },
           "wild": false,
-          "xp": 20
+          "xp": 28
         },
         {
           "id": "typescript",
@@ -272,6 +272,7 @@
         "3Ds max": true,
         "Captain Onosa": true,
         "Cinema4D": true,
+        "FreePascal": true,
         "GDevelop": true,
         "KDE": true,
         "PlayStation": true,
@@ -285,23 +286,24 @@
         "minecraft": true,
         "mod": true,
         "nix": true,
+        "pikachu": true,
         "unity": true,
         "vip": true
       },
       "team": [
         {
           "id": "firefox",
-          "name": "kit",
+          "name": "firefoxy",
           "stats": {
             "attack": 63,
             "defense": 48
           },
           "wild": false,
-          "xp": 69
+          "xp": 141
         },
         {
           "id": "PlayStation",
-          "name": "p",
+          "name": "playstation",
           "stats": {
             "attack": 1,
             "defense": 3
@@ -311,7 +313,7 @@
         },
         {
           "id": "Captain Onosa",
-          "name": "rayliblang",
+          "name": "destroyedonosa",
           "stats": {
             "attack": 2,
             "defense": 2
@@ -321,7 +323,7 @@
         },
         {
           "id": "mario",
-          "name": "mario",
+          "name": "gonemario",
           "stats": {
             "attack": 2,
             "defense": 2
@@ -331,7 +333,7 @@
         },
         {
           "id": "unity",
-          "name": "i<3u",
+          "name": "unity",
           "stats": {
             "attack": 1,
             "defense": 2
@@ -411,13 +413,13 @@
         },
         {
           "id": "arch",
-          "name": "altwin",
+          "name": "glass",
           "stats": {
-            "attack": 2,
-            "defense": 1
+            "attack": 30,
+            "defense": 23
           },
           "wild": false,
-          "xp": 1
+          "xp": 124
         },
         {
           "id": "minecraft",
@@ -434,6 +436,26 @@
           "name": "kotlinMascot",
           "stats": {
             "attack": 2,
+            "defense": 2
+          },
+          "wild": false,
+          "xp": 0
+        },
+        {
+          "id": "pikachu",
+          "name": "pikachu",
+          "stats": {
+            "attack": 1,
+            "defense": 3
+          },
+          "wild": false,
+          "xp": 0
+        },
+        {
+          "id": "FreePascal",
+          "name": "FreePascal",
+          "stats": {
+            "attack": 3,
             "defense": 2
           },
           "wild": false,
@@ -516,7 +538,7 @@
         },
         {
           "id": "ocaml",
-          "name": "caramel",
+          "name": "((",
           "stats": {
             "attack": 5,
             "defense": 3
@@ -528,11 +550,11 @@
           "id": "lua",
           "name": "😡",
           "stats": {
-            "attack": 131,
-            "defense": 114
+            "attack": 143,
+            "defense": 125
           },
           "wild": false,
-          "xp": 236
+          "xp": 10
         },
         {
           "id": "racket",
@@ -636,7 +658,7 @@
         },
         {
           "id": "gnome",
-          "name": "gnome",
+          "name": "))",
           "stats": {
             "attack": 1,
             "defense": 2
@@ -667,7 +689,8 @@
       "plushiedex": {
         "5thFunction": true,
         "Cpp": true,
-        "ruby": true
+        "ruby": true,
+        "telegram": true
       },
       "team": [
         {
@@ -696,6 +719,16 @@
           "stats": {
             "attack": 2,
             "defense": 1
+          },
+          "wild": false,
+          "xp": 0
+        },
+        {
+          "id": "telegram",
+          "name": "telegram",
+          "stats": {
+            "attack": 10,
+            "defense": 10
           },
           "wild": false,
           "xp": 0

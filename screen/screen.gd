@@ -105,7 +105,8 @@ func _on_plushie(from_username: String, _info: TwitchCommandInfo, args: PackedSt
 	add_plushie(instance, await Twitch.bot.get_user(from_username))
 
 func _on_pick(from_username: String, _info: TwitchCommandInfo, args: PackedStringArray) -> void:
-	if owners.has(from_username) && is_instance_valid(owners[from_username]): return
+	if owners.has(from_username) && is_instance_valid(owners[from_username]):
+		owners[from_username].flee()
 
 	var name := PlushieLib.strip(" ".join(args))
 	if !PlushieLib.groups.has(name): return
